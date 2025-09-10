@@ -44,6 +44,11 @@ binding = "DB"
 database_name = "katelyatv-db"
 database_id = "your-d1-database-id-here"
 
+[[d1_databases]]
+binding = "katelyatv_db"
+database_name = "katelyatv-db"
+database_id = "36384ccc-70f2-45fd-a871-9d00eccb2071"
+
 [build]
 command = "pnpm pages:build"
 environment = { NODE_VERSION = "18" }
